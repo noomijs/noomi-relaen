@@ -1,0 +1,39 @@
+{
+  "name": "noomi-relaen",
+  "version": "0.0.1-beta2",
+  "description": "noomi relaen包",
+  "main": "dist/index.js",
+  "types": "dist/types/index.d.ts",
+  "files": [
+    "dist/**/*.d.ts",
+    "dist/**/*.js",
+    "dist/**/*.js.map"
+  ],
+  "scripts": {
+    "build": "tsc",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noomijs/noomi-relaen.git"
+  },
+  "keywords": [
+    "noomi",
+    "relaen",
+    "typescript"
+  ],
+  "author": "fieldyang <fieldyang@163.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/noomijs/noomi-relaen/issues"
+  },
+  "homepage": "https://github.com/noomijs/noomi-relaen#readme",
+  "engines": {
+    "node": ">=13.20.0"
+  },
+  "contributors": [
+    "杨雷 <fieldyang@163.com>"
+  ],
+  "dependencies": {
+    
+  }
+}

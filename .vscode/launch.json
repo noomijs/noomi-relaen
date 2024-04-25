@@ -1,0 +1,25 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            //运行app.js
+            // "program":"${workspaceFolder}/dist/app.js",
+            // "program":"${workspaceFolder}/dist/core/database/relaen/test1.js",
+            //直接运行当前文件
+            "program":"${file}",
+            "preLaunchTask": "tsc: 构建 - tsconfig.json",
+            "sourceMaps": true,
+
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ],
+            "cwd": "${workspaceRoot}"
+        }
+    ]
+}
